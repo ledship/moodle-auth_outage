@@ -4,6 +4,8 @@ cache:
   directories:
     - $HOME/.composer/cache
 
+services:
+  - postgresql
 addons:
   postgresql: "9.3"
 
